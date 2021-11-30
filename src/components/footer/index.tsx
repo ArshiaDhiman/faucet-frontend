@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
         <div className="text-center p-2 bg-level-one border-t border-white border-opacity-5 w-full">
             <ul className="flex justify-center list-none ">
                 <li className="mx-3">
-                    <a href="https://github.com/ArshiaDhiman">
+                    <a target="_blank" href="https://github.com/ArshiaDhiman">
                         <Image
                             src="/icons/github-icon.svg"
                             alt="github"
@@ -16,7 +16,10 @@ export const Footer: React.FC = () => {
                     </a>
                 </li>
                 <li className="mx-3">
-                    <a href="https://www.linkedin.com/in/arshia-dhiman-932898202/">
+                    <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/arshia-dhiman-932898202/"
+                    >
                         <Image
                             className="accent"
                             src="/icons/linkedin-icon.svg"
